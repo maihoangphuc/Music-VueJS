@@ -206,6 +206,17 @@ import A12 from "@/music/A12.mp3";
 import A13 from "@/music/A13.mp3";
 import A14 from "@/music/A14.mp3";
 import A15 from "@/music/A15.mp3";
+import A16 from "@/music/A16.mp3";
+import A17 from "@/music/A17.mp3";
+import A18 from "@/music/A18.mp3";
+import A19 from "@/music/A19.mp3";
+import A20 from "@/music/A20.mp3";
+import A21 from "@/music/A21.mp3";
+import A22 from "@/music/A22.mp3";
+import A23 from "@/music/A23.mp3";
+import A24 from "@/music/A24.mp3";
+import A25 from "@/music/A25.mp3";
+import A26 from "@/music/A26.mp3";
 
 //import images
 import I1 from "@/assets/image/I1.jpg";
@@ -223,6 +234,17 @@ import I12 from "@/assets/image/I12.jpg";
 import I13 from "@/assets/image/I13.jpg";
 import I14 from "@/assets/image/I14.jpg";
 import I15 from "@/assets/image/I15.jpg";
+import I16 from "@/assets/image/I16.jpg";
+import I17 from "@/assets/image/I17.jpg";
+import I18 from "@/assets/image/I18.jpg";
+import I19 from "@/assets/image/I19.jpg";
+import I20 from "@/assets/image/I20.jpg";
+import I21 from "@/assets/image/I21.jpg";
+import I22 from "@/assets/image/I22.jpg";
+import I23 from "@/assets/image/I23.jpg";
+import I24 from "@/assets/image/I24.jpg";
+import I25 from "@/assets/image/I25.jpg";
+import I26 from "@/assets/image/I26.jpg";
 
 export default {
   components: {
@@ -240,21 +262,32 @@ export default {
   setup() {
     //init data
     var audios = ref([
-      { name: "Đáp Án Cuối Cùng", file: A15, image: I15, artist: "Quân AP x Nguyễn Phúc Thiện", howl: null },
-      { name: "How About You (너는 어땠을까)", file: A1, image: I1, artist: "Noel (노을)", howl: null },
-      { name: "How To Meet You (怎麼遇見你)", file: A2, image: I2, artist: "Yu Zhenger (虞正兒)", howl: null },
-      { name: "Understand (이해해)", file: A3, image: I3, artist: "Park Da Hye (박다혜)", howl: null },
-      { name: "Love Me (널 사랑했던 한 사람)", file: A4, image: I4, artist: "Punch (펀치)", howl: null },
-      { name: "With A Smile (웃으며)", file: A5, image: I5, artist: "Lim JaeHyun (임재현)", howl: null },
-      { name: "Atone (에이톤)", file: A6, image: I6, artist: "Ballade (발라드)", howl: null },
-      { name: "jjajjalajjajjajja (짜짜라짜짜짜)", file: A7, image: I7, artist: "Choi Ain (최아인) ft Seoho (서호)", howl: null },
-      { name: "Lesson (教训)", file: A8, image: I8, artist: "Fan Yaya (范芽芽)", howl: null },
-      { name: "On That Night (그날 그밤)", file: A9, image: I9, artist: "DK December (디셈버)", howl: null },
-      { name: "Half (반만)", file: A10, image: I10, artist: "Minho (진민호)", howl: null },
-      { name: "Too Late (끝이라고 말할 것 같았어)", file: A11, image: I11, artist: "Hwang Chi Yeul (황치열)", howl: null },
-      { name: "Promised Summer (約夏)", file: A12, image: I12, artist: "Shang Wenting (尚文婷)", howl: null },
-      { name: "You Don't Belong To Me (你不屬於我)", file: A13, image: I13, artist: "Eric (周興哲)", howl: null },
-      { name: "Day Or Night (밤이나 낮이나)", file: A14, image: I14, artist: "Shim Jeong Seon (심정선)", howl: null },
+      { name: "Đáp Án Cuối Cùng", file: A1, image: I1, artist: "Quân AP", howl: null },
+      { name: "Tự Tình 2", file: A2, image: I2, artist: "Trung Quân Idol", howl: null },
+      { name: "Giữ Lại Được Chi", file: A3, image: I3, artist: "Reddy", howl: null },
+      { name: "Người Đáng Thương Là Anh", file: A4, image: I4, artist: "OnlyC", howl: null },
+      { name: "Phố Không Màu", file: A5, image: I5, artist: "Vincent", howl: null },
+      { name: "Có Những Tiếc Nuối", file: A6, image: I6, artist: "Duy Tiến", howl: null },
+      { name: "Mùa Thu Qua Đi", file: A7, image: I7, artist: "Lâm Alex", howl: null },
+      { name: "Liệu Có Ngoại Lệ", file: A8, image: I8, artist: "Keyo", howl: null },
+      { name: "Thành Phố Mưa Rơi", file: A9, image: I9, artist: "Khải", howl: null },
+      { name: "Nợ Ai Đó Lời Xin Lỗi 2", file: A10, image: I10, artist: "Bozitt", howl: null },
+      { name: "Em Giờ Đã Yêu Ai Chưa", file: A11, image: I11, artist: "DUG", howl: null },
+      { name: "Bản Tình Ca Số 2", file: A12, image: I12, artist: "Trung Nghĩa x Văn x Bnos", howl: null },
+      { name: "Khoảng Cách Xa Nhất", file: A13, image: I13, artist: "Dee x Hạt Dẻ", howl: null },
+      { name: "Sài Gòn Chẳng Chờ Chúng Ta", file: A14, image: I14, artist: "Trung Nghĩa x L.Fujng x JayD", howl: null },
+      { name: "Thu Sang Hạ Tàn", file: A15, image: I15, artist: "Cầm x Xôn Nguyễn", howl: null },
+      { name: "Đã Từng Là Yêu Thương", file: A16, image: I16, artist: "Trung Nghĩa x L.Fujng x Bnos", howl: null },
+      { name: "Riêng Mình Anh", file: A17, image: I17, artist: "Reddy", howl: null },
+      { name: "Ngày Không Có Em", file: A18, image: I18, artist: "ThịnK", howl: null },
+      { name: "Những Ngày Vỡ Đôi", file: A19, image: I19, artist: "Đinh Uyên", howl: null },
+      { name: "Phản Bội Chính Mình", file: A20, image: I20, artist: "Quân AP", howl: null },
+      { name: "Một Ngàn Nỗi Đau", file: A21, image: I21, artist: "Văn Mai Hương", howl: null },
+      { name: "Mình Dành Cho Nhau Nỗi Buồn", file: A22, image: I22, artist: "Trung I.U x Tuấn Đinh", howl: null },
+      { name: "Diễn Viên", file: A23, image: I23, artist: "Ngô Anh Đạt", howl: null },
+      { name: "Mr Siro Mashup", file: A24, image: I24, artist: "Minh Anh", howl: null },
+      { name: "Chưa Quên Người Yêu Cũ", file: A25, image: I25, artist: "Hà Nhi", howl: null },
+      { name: "Tự Sự", file: A26, image: I26, artist: "Orange", howl: null },
     ]);
 
     var index = ref(0);
